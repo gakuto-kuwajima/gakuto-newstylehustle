@@ -1,4 +1,4 @@
-# GAKUTOのニュースタイルハッスル情報部屋（ポートフォリオ用）
+# GAKUTOのニュースタイルハッスル情報部屋
 
 📍 サイトURL：[https://gakuto-newstylehustle.com](https://gakuto-newstylehustle.com)
 
