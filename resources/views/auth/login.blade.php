@@ -66,6 +66,9 @@
                                 @endif
                             </div>
                         </div>
+                        <p class="mt-3 text-center">
+                            アカウントをお持ちでない方は
+                            <a href="{{ route('register') }}" class="text-primary">こちら</a>からご登録ください。
                     </form>
                 </div>
             </div>
