@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        @if(env('APP_ENV') == 'production')
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69009509-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-69009509-2');
+        </script>
+        @endif
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- CSRF Token -->
-        {{-- 後の章で説明します -->
+        {{-- 後の章で説明します --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- 各ページごとにtitleタグを入れるために@yieldで空けておきます。 --}}
+        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
         <meta name="description" content="@yield('metadescription')" />
 
         <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
@@ -20,7 +33,7 @@
         <meta property="og:image" content="@yield('ogimage')" />
         <meta property="og:site_name" content="GAKUTOのニュースタイルハッスル情報部屋 | GAKUTO'S NEW STYLE HUSTLE INFORMATION ROOM" />
         <meta property="og:locale" content="ja_JP" />
-        <meta property="fb:app_id" content=" 714173509023789 " />
+        <meta property="fb:app_id" content="714173509023789" />
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@mydance365">
 
@@ -33,8 +46,6 @@
 
         <meta name="msapplication-TileImage" content="{{ asset('img/windows-pin.png')}}" />
         <meta name="msapplication-TileColor" content="#4CE096"/>
-
-        <title>@yield('title') | GAKUTOのニュースタイルハッスル情報部屋</title>
 
         <!-- Scripts -->
         {{-- Laravel標準で用意されているJavascriptを読み込みます --}}
@@ -58,7 +69,7 @@
             <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
                 <div class="container">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" alt="NEW STYLE HUSTLE JAPAN WEBSITEのロゴ">
+                        <img src="{{ asset('img/newstylehustlejapanwebsite-logo.png') }}" alt="GAKUTOのニュースタイルハッスル情報部屋">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -88,6 +99,7 @@
                              <li><a href="/community">COMMUNITY</a></li>
                              <li><a href="/lesson">LESSON</a></li>
                              <li><a href="/contact">CONTACT</a></li>
+                             <li><a href="communityrep_login">LOGIN</a></li>
                             {{-- 以上までを追記 --}}
                         </ul>
                         <div class="form-search mx-auto">
@@ -124,7 +136,7 @@
                         <div class="share-button">
                             <ul class="snsbtniti">
                   　            <!--twitter-->
-                                <li><a href="https://twitter.com/share?url={{ url('/featured-video') }}&text=ニュースタイルハッスルの動画特集 - GAKUTOのニュースタイルハッスル情報部屋" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/share?url={{ url('/featured-video') }}&text=ニュースタイルハッスルの動画特集 | GAKUTOのニュースタイルハッスル情報部屋" rel="nofollow" target="_blank" class="flowbtn10"><i class="fab fa-twitter"></i></a></li>
                                 <!--facebook-->
                                 <li><a href="https://www.facebook.com/share.php?u={{ url('/featured-video') }}" rel="nofollow" target="_blank" class="flowbtn10 footerfbbtn"><i class="fab fa-facebook-f"></i></a></li>
                             </ul>
@@ -142,6 +154,7 @@
                                       <li><a href="/community">COMMUNITY</a></li>
                                       <li><a href="/lesson">LESSON</a></li>
                                       <li><a href="/contact">CONTACT</a></li>
+                                      <li><a href="communityrep_login">LOGIN</a></li>
                                     </ul>
                                 </div>
                             </div>
