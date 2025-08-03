@@ -1,72 +1,55 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# GAKUTOのニュースタイルハッスル情報部屋（ポートフォリオ用）
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+📍 サイトURL：[https://gakuto-newstylehustle.com](https://gakuto-newstylehustle.com)
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🔍 サイト概要
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+「GAKUTOのニュースタイルハッスル情報部屋」は、日本における New Style Hustle（ニュースタイルハッスル）を紹介する情報サイトです。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+当初は公共的な情報サイトを目指しておりましたが、運営方針や表現内容の調整を経て、現在は個人の視点を中心とした内容となっております。
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧭 主なページ構成
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| ページ名   | 内容 |
+|------------|------|
+| HOME       | サイトの紹介・イントロダクション |
+| ABOUT      | ニュースタイルハッスルとサイトの目的紹介 |
+| LESSON     | 東京でのレッスン・練習会情報 |
+| COMMUNITY  | 全国のコミュニティ一覧（都道府県別） |
+| CONTACT    | お問い合わせフォーム |
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🛠 技術構成
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+- **開発フレームワーク**：Laravel 5.8  
+- **使用言語**：PHP / HTML / CSS / JavaScript  
+- **テンプレートエンジン**：Blade  
+- **ホスティング環境**：エックスサーバー（PHP 7.3）  
+- **レスポンシブ対応**：モバイル表示に配慮した設計
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ✨ 特徴・工夫点
 
-## Security Vulnerabilities
+- **ニッチなジャンルに特化**：New Style Hustle に関する日本語リソースが少ない中、体系的な情報整理を実現  
+- **読みやすさへの配慮**：初心者でも理解しやすい日本語表現とシンプルなレイアウト  
+- **全国展開を視野に**：都道府県別のコミュニティ情報を網羅し、地方のユーザーにも配慮  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🚀 転職アピールポイント
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- フルスクラッチでのWebサイト構築経験  
+- Laravelによるルーティング・ビュー・バリデーションなど一通りの構成要素に触れた経験  
+- 実サービスとして公開し、ユーザーがアクセスできるプロダクトを運用中
+
+---
+
+## 🧑‍🎓 制作者：桑嶋 学人（Gakuto Kuwajima）
+
+本サイトは、Web開発の基礎力や情報整理力を示すために個人で構築・公開したポートフォリオです。
