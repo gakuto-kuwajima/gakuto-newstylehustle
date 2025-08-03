@@ -1,6 +1,6 @@
 @extends('layouts.lesson')
 
-@section('title', 'レッスン')
+@section('title', 'ニュースタイルハッスルのレッスン情報')
 @section('metadescription', 'ニュースタイルハッスルのレッスン情報です。東京におけるレッスン・セッション・パーティーを紹介します。')
 
 @section('ogtitle', 'ニュースタイルハッスルのレッスン情報')
@@ -18,9 +18,6 @@
             <div class="information text-center">
                 <p>※記載してる内容は東京の情報のみです。<br>各地域の情報は<a href="/community">こちら</a>からご確認ください。</p>
             </div>
-            <div class="row calendar col-md-12 mx-auto">
-              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=NDBwMHZpNTZrb3M1cG5yb2R2bWQ5cjd2dG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%234285F4&amp;color=%230B8043&amp;showTitle=0&showPrint=0&showTabs=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            </div>
             <div class="section">
                 <div class="h2-title-lesson">
                     <h2>レッスン</h2>
@@ -32,7 +29,7 @@
                     <div class="lesson">
                         <h4 class="h4-title-lesson"><i class="fas fa-circle h4-title-lesson-before"></i>レギュラーclass</h4>
                         <div class="lesson-description">
-                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス<br>（日によって場所など変更する場合があるので、スケジュール要確認）</p>
+                            <p>基本のステップを練習したあと、いくつか技を組み合わせて踊るオープンクラス<br>（日によって場所など変更する場合があるので、<a href="https://www.facebook.com/ZabuEri.NSH/">スケジュール</a>要確認）</p>
                         </div>
                         <div class="detail">
                             <div class="detail-css">
@@ -101,7 +98,7 @@
                     <div class="lesson">
                         <h4 class="h4-title"><i class="fas fa-circle h4-title-lesson-before"></i>ハスモ -NSH Morning-（Zabuのみ）</h4>
                         <div class="lesson-description">
-                            <p>日曜日の朝に行う、New Style Hustleのレクチャーと練習会です。時間帯で難易度をわけてあるので、経験者の方も初めての方やゆっくりベーシックをやりたい方もじっくりできます♬</p>
+                            <p>日曜日の朝に行う、New Style Hustleのレクチャーと練習会です。時間帯で難易度をわけてあるので、経験者の方も初めての方やゆっくりベーシックをやりたい方もじっくりできます&#9836;</p>
                         </div>
                         <div class="detail">
                             <div class="detail-css">
